@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>世界海陆分布</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,maximum-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<div id="page1" class="page on">
+			<img src="img/logo.png" alt="" class="logo">
+			<h2>世界海陆分布</h2>
+			<div id="startBtn" class="startBtn">游戏开始</div>
+		</div>
+
+		<div id="page2" class="page">
+			<img src="img/logo.png" alt="" class="logo">
+			<div id="p2_inner" class="p2_inner">
+				<h2>世界海陆分布图</h2>
+				<div id="mapBox" class="mapBox">
+					<img src="img/map_bg2.jpg" alt="" class="map_bg">
+					<div class="hotmapBox">
+						<p class="hot_1 hot_1_1"></p>
+						<p class="hot_1 hot_1_2"></p>
+						<p class="hot_1 hot_1_3"></p>
+						<p class="hot_2 hot_2_1"></p>
+						<p class="hot_2 hot_2_2"></p>
+						<p class="hot_2 hot_2_3"></p>
+						<p class="hot_3 hot_3_1"></p>
+						<p class="hot_3 hot_3_2"></p>
+						<p class="hot_4 hot_4_1"></p>
+						<p class="hot_4 hot_4_2"></p>
+						<p class="hot_4 hot_4_3"></p>
+						<p class="hot_4 hot_4_4"></p>
+						<p class="hot_4 hot_4_5"></p>
+						<p class="hot_4 hot_4_6"></p>
+						<p class="hot_4 hot_4_7"></p>
+						<p class="hot_4 hot_4_8"></p>
+						<p class="hot_5 hot_5_1"></p>
+						<p class="hot_5 hot_5_2"></p>
+						<p class="hot_5 hot_5_3"></p>
+						<p class="hot_5 hot_5_4"></p>
+						<p class="hot_6 hot_6_1"></p>
+						<p class="hot_6 hot_6_2"></p>
+						<p class="hot_6 hot_6_3"></p>
+						<p class="hot_7 hot_7_1"></p>
+						<p class="hot_7 hot_7_2"></p>
+						<p class="hot_7 hot_7_3"></p>
+						<p class="hot_7 hot_7_4"></p>
+						<p class="hot_8 hot_8_1"></p>
+						<p class="hot_9 hot_9_1"></p>
+						<p class="hot_9 hot_9_2"></p>
+						<p class="hot_10 hot_10_1"></p>
+						<p class="hot_10 hot_10_2"></p>
+						<p class="hot_10 hot_10_3"></p>
+						<p class="hot_11 hot_11_1"></p>
+						<p class="hot_11 hot_11_2"></p>
+					</div>
+					<ul id="itemFixed"></ul>
+				</div>
+				<ul class="itemBox">
+					<li class="item item_yang" data-target="hot_1">太平洋</li>
+					<li class="item item_yang" data-target="hot_2">印度洋</li>
+					<li class="item item_yang" data-target="hot_3">北冰洋</li>
+					<li class="item item_yang" data-target="hot_4">大西洋</li>
+					<li class="item item_zhou" data-target="hot_5">北美洲</li>
+					<li class="item item_zhou" data-target="hot_6">南美洲</li>
+					<li class="item item_zhou" data-target="hot_7">亚洲</li>
+					<li class="item item_zhou" data-target="hot_8">欧洲</li>
+					<li class="item item_zhou" data-target="hot_9">非洲</li>
+					<li class="item item_zhou" data-target="hot_10" style="width:45px;">大洋洲</li>
+					<li class="item item_zhou" data-target="hot_11">南极洲</li>
+				</ul>
+			</div>
+			<div id="p2_footer" class="p2_footer">
+				<div class="p2_footer_inner p2_footer_tip show">
+					<p id="tipInfo">请将七大洲和四大洋的名称拖至图中相应的位置</p>
+					<div id="tipBtn" class="tipBtn btn">操作说明</div>
+					<div id="resetBtn" class="resetBtn btn">重置</div>
+				</div>
+				<div class="p2_footer_inner p2_footer_correct">
+					<span>GOOD!全部正确！</span>
+					<div id="againBtn" class="againBtn btn">再玩一次</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/fastclick.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
